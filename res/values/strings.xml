@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Hello world!</string>
+	<string name="status_to">请选择要转到的状态</string>
+	<string name="redirect_to">请选择转到的页面</string>
+    <string name="app_name">乐友移动网管</string>
+    <string name="action_settings">设置</string>
+    <string name="hint_username">用户名</string>
+	<string name="hint_password">密　码</string>
+	<string name="loginBtn">登　录</string>
+	<string name="saveInfoChk">记住密码</string>
+	<string name="autoLoginChk">自动登录</string>
+	<string name="loginingBar">正在登录\.\.\.</string>
+	<string name="cancelLoginBtn">取消登录</string>
+	<string name="hint_grpmsg">亲，输入您想发送的消息！</string>
+	<string name="push_msg">发送消息</string>
+	<string name="userchktip">选择您要发送的用户：</string>
+	<string name="sunxin">孙欣2</string>
+	<string name="guokai">郭凯4</string>
+	<string name="haitao">冯海涛3</string>
+	<string name="dengbiao">邓彪22</string>
+</resources>

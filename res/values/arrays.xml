@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="task_status_options">
+		<item>打回</item>
+		<item>已办</item>
+		<item>待办</item>
+		<item>办结</item>
+	</string-array>
+	<string-array name="task_redirect_options">
+		<item>留言</item>
+		<item>留言历史</item>
+		<item>任务变更历史</item>
+	</string-array>
+ </resources>
+

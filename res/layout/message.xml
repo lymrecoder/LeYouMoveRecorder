@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:stretchColumns="1"
+	>
+<TableRow>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="mantis:"
+	android:textSize="16sp"
+	/>	
+
+<EditText
+    android:id="@+id/mantis_num_msg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="请填写mantis号"
+    android:inputType="number"
+    android:selectAllOnFocus="true" />
+
+</TableRow>
+
+<TableRow
+    android:layout_height="match_parent"
+    android:gravity="top" >
+
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+    android:gravity="top"
+	android:text="留言内容:"
+	android:textSize="16sp"	
+	/>
+<!-- android:inputType="numberPassword"表明只能接收数字密码 -->
+
+<EditText
+    android:id="@+id/content_msg"
+    android:layout_width="fill_parent"
+    android:layout_height="140dp"
+    android:inputType="textMultiLine"
+    android:gravity="top"/>
+
+</TableRow>
+
+<Button
+    android:id="@+id/submit_msg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="留言" />
+
+</TableLayout>
